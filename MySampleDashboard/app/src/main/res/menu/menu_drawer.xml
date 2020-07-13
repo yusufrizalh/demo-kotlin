@@ -16,4 +16,8 @@
     <item android:title="Shared Prefs"
         android:id="@+id/nav_item_shared_pref"
         android:icon="@android:drawable/ic_menu_compass" />
+
+    <item android:title="SQLite DB"
+        android:id="@+id/nav_item_sqlite"
+        android:icon="@android:drawable/ic_menu_day" />
 </menu>

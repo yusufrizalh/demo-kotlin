@@ -52,6 +52,11 @@ class MainActivity : AppCompatActivity() {
                 ft.replace(R.id.containerView, SharedPrefsFragment()).commit()
             }
 
+            if (menuItem.itemId == R.id.nav_item_sqlite) {
+                val ft = mFragmentManager.beginTransaction()
+                ft.replace(R.id.containerView, SQLiteDBFragment()).commit()
+            }
+
             false
         }
 
