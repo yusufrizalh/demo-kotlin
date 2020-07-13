@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Inbox"
+        android:id="@+id/nav_item_inbox"
+        android:icon="@android:drawable/ic_menu_agenda" />
+
+    <item android:title="Draft"
+        android:id="@+id/nav_item_draft"
+        android:icon="@android:drawable/ic_menu_crop" />
+
+    <item android:title="Sent"
+        android:id="@+id/nav_item_sent"
+        android:icon="@android:drawable/ic_menu_save" />
+
+    <item android:title="Shared Prefs"
+        android:id="@+id/nav_item_shared_pref"
+        android:icon="@android:drawable/ic_menu_compass" />
+</menu>
