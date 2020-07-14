@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="15dp">
 
@@ -10,45 +10,78 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"/>
+        android:layout_marginTop="6dp"
+        android:hint="Name"
+        android:textColor="#3949AB"
+        android:textColorHint="#C5CAE9"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/age"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
         android:hint="Age"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:textColor="#3949AB"
+        android:textColorHint="#C5CAE9"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"/>
+        android:layout_marginTop="6dp"
+        android:hint="Email"
+        android:textColor="#3949AB"
+        android:textColorHint="#C5CAE9"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="add"
             android:text="Add"
-            android:onClick="add"/>
+            android:textColor="#3949AB"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="update"
             android:text="Update"
-            android:onClick="update"/>
+            android:textColor="#3949AB"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
         <Button
             android:id="@+id/btnDelete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="delete"
             android:text="Delete"
-            android:onClick="delete"/>
+            android:textColor="#3949AB"
+            android:textSize="18sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 
