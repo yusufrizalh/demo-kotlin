@@ -25,8 +25,6 @@ class CustomAdapter(private val context: Context,
         rowView.findViewById<TextView>(R.id.row_age).text = "Age: " + dataitem["age"]
         rowView.findViewById<TextView>(R.id.row_email).text = "Email: " + dataitem["email"]
 
-
-
         rowView.tag = position
         return rowView
     }
